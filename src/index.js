@@ -1,2 +1,5 @@
 const str = 'hi'
-console.log(str)
+const foo = () => {
+    console.log(str)
+}
+foo()
