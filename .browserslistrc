@@ -1,0 +1,10 @@
+[production]	# production 环境
+> 1%	# 支持大于 1% 的浏览器
+ie 9	# 支持 IE9
+
+[modern]
+last 1 chrome version	# chrome 最新的一个个版本
+last 1 firefox version	# firefox 最新的一个个版本
+
+[ssr]
+node 12
