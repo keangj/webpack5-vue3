@@ -10,6 +10,10 @@ module.exports = {
     },
     extensions: [".json", ".ts", ".js", "..."]
   },
+  devServer: {
+    port: 3000,
+    hot: true
+  },
   module: {
     rules: [
       {
